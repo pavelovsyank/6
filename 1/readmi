@@ -1,0 +1,4 @@
+# python -m venv .venv 
+# .venv\scripts\activate
+# если не работает, то выполнить в PowerShell от администратора Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser (нужно один раз)
+# выбрать в меню интерпретатор из .venv
