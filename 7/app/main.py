@@ -14,3 +14,4 @@ async def read_item(item_id):
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
