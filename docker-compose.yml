@@ -1,13 +1,13 @@
 version: "3"
 
 services:
-  api4:
-    container_name: api4
+  api6:
+    container_name: api6
     restart: unless-stopped
     build:
       context: ./
     ports:
-      - 0.0.0.0:8022:${PORT}
+      - 0.0.0.0:8023:${PORT}
     logging:
       driver: "json-file"
       options:
